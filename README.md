@@ -1,21 +1,18 @@
-# Soroban Project
+# AI Powered Resume Builder
 
-## Project Structure
+## Project Description
+A decentralized application built on Soroban blockchain using smart contracts to manage AI-generated resumes. Users can create, store, and manage resumes securely and immutably.
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Project Vision
+To empower users with blockchain-backed ownership and authenticity of their professional resumes, leveraging AI to simplify the resume creation process.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Key Features
+- **Create Resume**: Allows users to create and store an AI-generated resume on the blockchain.
+- **View Resume**: Retrieve your resume anytime, secured on-chain.
+- **Deactivate Resume**: Allows a user to deactivate an outdated resume, maintaining record authenticity.
+  
+## Future Scope
+- Integration with AI engine for real-time resume generation.
+- Support for multiple resume versions per user.
+- Resume approval system for verification by employers or HR.
+- Analytics on resume performance (views, approvals).
